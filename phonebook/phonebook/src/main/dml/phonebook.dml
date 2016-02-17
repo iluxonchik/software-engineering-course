@@ -1,0 +1,33 @@
+package pt.ist.phonebook.domain;
+
+class PhoneBook;
+
+class Person {
+    String name;
+}
+
+class Contact {
+    String name;
+    Integer phoneNumber;
+}
+
+relation PhoneBookContainsPersons {
+    PhoneBook playsRole phoneBook { multiplicity 0..1; }
+    Person playsRole person {
+        multiplicity *;
+    }
+}
+
+relation PersonContainsContacts {
+    Person playsRole person { multiplicity 0..1; }
+    Contact playsRole contact {
+        multiplicity *;
+    }
+}
+
+relation DomainRootHasPhoneBookApplication {
+    .pt.ist.fenixframework.DomainRoot playsRole root {
+        multiplicity 0..1;
+    }
+    PhoneBook playsRole phonebook { multiplicity 0..1; }
+}

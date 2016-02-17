@@ -76,7 +76,7 @@
           </execution>
         </executions>
         <configuration>
-          <mainClass>pt.tecnico.phonebook.PhoneBookApplication</mainClass> <!-- FIXME -->
+          <mainClass>pt.ist.phonebook.PhoneBookApplication</mainClass> <!-- FIXME -->
           <killAfter>-1</killAfter>
         </configuration>
       </plugin>
@@ -124,6 +124,12 @@
       <artifactId>log4j-core</artifactId>
       <version>2.0-rc1</version>
     </dependency>
+
+  <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+  </dependency>
   </dependencies>
 
   <repositories>
