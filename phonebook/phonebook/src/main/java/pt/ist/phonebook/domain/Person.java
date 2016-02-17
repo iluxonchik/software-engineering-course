@@ -1,9 +1,9 @@
 package pt.ist.phonebook.domain;
 
 public class Person extends Person_Base {
-    
-    public Person() {
-        super();
+
+    public Person(String name) {
+        this.setName(name);
     }
 
     @Override
@@ -16,5 +16,5 @@ public class Person extends Person_Base {
         }
         super.addContact(newContact);
     }
-    
+
 }
