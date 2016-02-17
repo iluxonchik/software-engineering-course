@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: pt.ist:db-ojb:1.0.0-escaped">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/pt/ist/db-ojb/1.0.0-escaped/db-ojb-1.0.0-escaped.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/pt/ist/db-ojb/1.0.0-escaped/db-ojb-1.0.0-escaped-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/pt/ist/db-ojb/1.0.0-escaped/db-ojb-1.0.0-escaped-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
