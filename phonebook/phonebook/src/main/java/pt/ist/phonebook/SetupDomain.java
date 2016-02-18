@@ -16,7 +16,7 @@ public class SetupDomain {
     }
 
     private static void populateDomain() {
-        PhoneBook pb = new PhoneBook();
+        PhoneBook pb = PhoneBook.getInstance();
         Person person = new Person("Jayceon");
         pb.addPerson(person);
         person.addContact(new Contact("Adre Young", 123456));
