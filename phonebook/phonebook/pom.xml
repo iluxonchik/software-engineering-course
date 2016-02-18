@@ -76,7 +76,7 @@
           </execution>
         </executions>
         <configuration>
-          <mainClass>pt.ist.phonebook.PhoneBookApplication</mainClass> <!-- FIXME -->
+          <mainClass>pt.ist.phonebook.PhoneBookApplication</mainClass>
           <killAfter>-1</killAfter>
         </configuration>
       </plugin>

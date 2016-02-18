@@ -11,11 +11,7 @@ import pt.ist.phonebook.domain.Contact;
 
 public class SetupDomain {
     @Atomic
-    public static void main(String args) {
-        populateDomain();
-    }
-
-    private static void populateDomain() {
+    public static void populateDomain() {
         PhoneBook pb = PhoneBook.getInstance();
         Person person = new Person("Jayceon");
         pb.addPerson(person);

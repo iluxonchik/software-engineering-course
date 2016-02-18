@@ -13,5 +13,18 @@ public class PhoneBook extends PhoneBook_Base {
     private PhoneBook() {
         FenixFramework.getDomainRoot().setPhonebook(this);
     }
-    
+    @Override
+    public String toString() {
+        String res = "";
+
+        for (Person p : this.getPersonSet()) {
+            res += "The Contact Book of " + p.getName() + ":\n";
+            for (Contact c : p.getContactSet()) {
+                res += "\t Name: " + c.getName() + " phone: " +
+                        c.getPhoneNumber() + "\n";
+            }
+        }
+        return res;
+    }
+
 }

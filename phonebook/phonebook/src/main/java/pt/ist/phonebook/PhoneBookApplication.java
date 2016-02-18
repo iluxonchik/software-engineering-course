@@ -9,5 +9,13 @@ public class PhoneBookApplication
     public static void main( String[] args )
     {
         PhoneBook pb = PhoneBook.getInstance();
+        setupIfNeeded(pb);
+        System.out.println(pb);
     }
+
+    private static void setupIfNeeded(PhoneBook pb) {
+        if (pb.getPersonSet().isEmpty())
+            SetupDomain.populateDomain();
+    }
+
 }
