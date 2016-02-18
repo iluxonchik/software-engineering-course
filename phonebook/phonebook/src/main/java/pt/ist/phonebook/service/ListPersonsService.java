@@ -4,8 +4,8 @@ import pt.ist.fenixframework.FenixFramework;
 import pt.ist.phonebook.domain.Person;
 import pt.ist.phonebook.domain.PhoneBook;
 import pt.ist.phonebook.exception.PhoneBookException;
-import pt.ist.phonebook.service.dro.PersonSimpleDto;
-import pt.ist.phonebook.service.dro.PhoneBookDto;
+import pt.ist.phonebook.service.dto.PersonSimpleDto;
+import pt.ist.phonebook.service.dto.PhoneBookDto;
 
 import java.util.ArrayList;
 import java.util.List;

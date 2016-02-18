@@ -1,6 +1,4 @@
-package pt.ist.phonebook.service.dro;
-
-import pt.ist.phonebook.domain.PhoneBook;
+package pt.ist.phonebook.service.dto;
 
 import java.util.List;
 

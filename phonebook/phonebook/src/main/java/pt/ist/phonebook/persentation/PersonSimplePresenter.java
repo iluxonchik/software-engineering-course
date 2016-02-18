@@ -1,6 +1,6 @@
 package pt.ist.phonebook.persentation;
 
-import pt.ist.phonebook.service.dro.PersonSimpleDto;
+import pt.ist.phonebook.service.dto.PersonSimpleDto;
 
 public class PersonSimplePresenter {
 

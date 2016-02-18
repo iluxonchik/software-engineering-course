@@ -1,7 +1,7 @@
 package pt.ist.phonebook.persentation;
 
-import pt.ist.phonebook.service.dro.PersonSimpleDto;
-import pt.ist.phonebook.service.dro.PhoneBookDto;
+import pt.ist.phonebook.service.dto.PersonSimpleDto;
+import pt.ist.phonebook.service.dto.PhoneBookDto;
 
 public class PhoneBookPresenter {
     public static void show(PhoneBookDto dto) {

@@ -1,4 +1,4 @@
-package pt.ist.phonebook.service.dro;
+package pt.ist.phonebook.service.dto;
 
 /**
  * Created by iluxonchik on 18-02-2016.
