@@ -1,0 +1,44 @@
+package pt.ist.company.domain;
+
+class CompanyManager;
+
+class Company {
+	String name;
+	String iata;
+}
+
+class Airport {
+	Stirng iata;
+	String icao;
+	String city;
+	String costPerFlight;
+}
+
+class Flight {
+	String id;
+	Airport origin;
+	Airport destination;
+	String time;
+}
+
+relation DomainRootHasCompanyManager {
+	.pt.ist.fenixframework.DomainRoot playsRole root {
+		multiplicity 0..1;
+	}
+	CompanyManager playsRole companyManager { multiplicity 0..1; }
+}
+
+relation CompanyManagerHasCompanies {
+	CompanyManager playsRole companyManager { multiplicity 0..1; }
+	Company playsRole company { multiplicity *; }
+}
+
+relation CompanyHasAirports {
+	Company playsRole company { multiplicity 0..1; }
+	Airport playsRole airport { multiplicity *; }
+}
+
+relation AirportHasFlights {
+	Airport playsRole airport { multiplicity 0..1; }
+	Flight playsRole flight { multiplicity *; }
+}
